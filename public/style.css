@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+*:focus{
+    border: none;
+    outline: none;
+}
+button{
+    background: none;
+    border: none;
+    border-radius: none;
+}
+textarea, textarea:focus{
+	height: 100px;
+
+	resize: none;
+	border: 2px solid #A0E0F6;
+	background: rgb(245, 245, 245);
+}
+input{
+	border: none;
+}
+input:focus{
+	border: none;
+}
+/* -- Maknut strelice --*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+h4, h5{
+	margin: 0
+}
+
+.input_wrapper{
+	white-space: nowrap;
+	border-bottom: 2px solid #A0E0F6;
+	background: rgb(245, 245, 245);
+}
+.input_wrapper > .fas{width: 10%}
+.input_wrapper > input{
+	width: 90%;
+	background: rgb(245, 245, 245);
+}
+.input_wrapper:focus{border-bottom: 2px solid #A0E0F6;}
+
+/* --- Random --- */
+.subtitles{
+	width: 100%;
+	border-bottom: black 1px solid;
+	text-align: start;
+	margin: 2% 0;
+}
+
+.responsive_image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.login_form{
+	color: #6DD0F6;
+	user-select: none;
+	cursor: pointer;
+}
+.login_form:hover{
+	color: #6DD0F6;
+	text-decoration: underline;
+}
+.login_form > a{color: #6DD0F6}
+.no_info_message{
+	margin: 0 auto;	
+
+	color: #6DD0F6;
+	text-decoration: underline;
+
+	font-weight: bold;
+	font-size: 20px;
+}
+/*---- Description & title ----*/
+.title{
+    width: 100%;
+    font-size: 75px;
+    margin: 2% auto;
+}
+@media only screen and (max-width: 600px) {
+	.title{
+		width: 100%;
+		font-size: 50px;
+		margin: 2% auto;
+	}
+}
+.description{
+	text-align: center;
+}
+.description_text{
+    width: 75%;
+    display: block;
+    margin: 2% auto;
+}
+
+/*------ Buttons -----*/
+.button_design{
+	user-select: none;
+	cursor: pointer;
+
+	padding: 5px 10px;
+    display: inline-block;
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+    border-radius: 10px;
+	border: 2px solid #A0E0F6;
+
+	background: #6DD0F6
+}
+.button_design:hover{
+	color: white;
+
+	transform: scale(1.05);
+	transition: all .5s;
+
+    border: 2px solid #6DD0F6;
+	background: #A0E0F6;
+}
+
+.button_design_no_hover{
+	padding: 5px 10px;
+    display: inline-block;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+    border-radius: 10px;
+	border: 2px solid #A0E0F6;
+
+	background: #6DD0F6
+}
+
+.confirm_button{
+	user-select: none;
+	cursor: pointer;
+
+	padding: 5px 10px;
+    display: inline-block;
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+    border-radius: 10px;
+	border: 2px solid #00ff00;
+
+	background: #02bd02
+}
+.confirm_button:hover{
+	color: white;
+    border: 2px solid #02bd02;
+	background: #00ff00;
+}
+
+.alert_button{
+	user-select: none;
+	cursor: pointer;
+
+	padding: 5px 10px;
+    display: inline-block;
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+    border-radius: 10px;
+	border: 2px solid rgb(255, 59, 59);
+
+	background: red
+}
+.alert_button:hover{
+	color: white;
+    border: 2px solid red;
+	background: rgb(255, 59, 59);
+}
+
+.disabled_button{
+	user-select: none;
+	cursor: pointer;
+
+	padding: 5px 10px;
+    display: inline-block;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+    border-radius: 10px;
+    border: 2px solid rgb(128, 128, 128);
+
+	background: rgb(186, 186, 186)
+}
+.disabled_button:hover{
+	border: 2px solid rgb(186, 186, 186);
+	background: rgb(128, 128, 128);
+}
+
+/*--------------------*/
+
+
+
+/*------ Filter -----*/
+.filter_search{
+	text-align: right;
+	white-space: nowrap;
+}
+.filter_search > *{
+	display: inline-block;
+}
+.form-group{
+	padding-left: 5%
+}
+.form-group > label >.fas{
+    margin-right: 20%;
+    font-size: 20px;
+}
+.col-form-label{
+	margin-right: 5px;
+}
+button > .fas{
+    padding: 5px 5px 0 5px;
+	color: white
+}
+
+/* --- Filter --- */
+.dropdown-menu{
+	min-width: 250px;
+	max-width: 500px;
+
+	border: 2px solid #6DD0F6;
+}
+.dropdownHeader{
+	margin: 0 2%;
+
+	font-weight: bold;
+	color: #6DD0F6;
+}
+.filter_item{
+	margin: 5%;
+	border-bottom: 2px solid #6DD0F6;
+}
+.filter_item_tag{
+	display: inline-block;
+	width: 10%;
+
+	font-size: 1rem;
+	text-align: center;
+}
+.filter_item_input{
+	display: inline-block;
+	width: 90%;
+
+	border: none
+}
+.filter_item_input:focus{
+	border: none
+}
+
+.dropdownFooter{
+	text-align: center;
+}
+.dropdownFooter > button{
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.subtitles ~ input, textarea{
+	margin: 0 5%;
+	width: 100%;
+}
+
+.pagination_buttons{
+	user-select: none;
+	font-weight: bold;
+	margin: 0 5px;
+
+	color: #6DD0F6;
+}
+.pagination_buttons:hover{
+	text-decoration: underline;
+}
+
+.views{
+	color: #6DD0F6;
+	white-space: nowrap;
+}
+
+/* Application form input */
+
+.application_form_element{margin: 5% 0;}
+.application_input{
+    width: 100%;
+    padding-left: 2%;
+
+    border: 2px solid #6DD0F6;
+    border-radius: 10px;
+    background: rgb(245, 245, 245);
+}   
+.application_input:focus{
+    border: 2px solid #6DD0F6;
+    border-radius: 10px;
+    background: rgb(245, 245, 245);
+}
+
+/* Student info */
+.profile_img{
+    border-radius: 100%;
+    border: 3px solid #6DD0F6
+}
+
+.student_info{ padding: 0 0 0 5% }
+.user_info_label{font-weight: bold}
+
+.user_info_input_wrapper{
+    margin: 3% 0;
+    white-space: nowrap;
+}
+.user_info_input{
+    width: 80%;
+    float: right;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width: 767px) {
+	.student_info{ padding: 10% 2% 0 2% }
+	.description_text{font-size: 14px}
+}
+@media only screen and (max-width: 1200px) {
+    .user_info_input_wrapper{white-space: initial}
+    .user_info_input{width: 100%; padding: 0;}
+}
+
+.div_button{
+	user-select: none;
+	cursor: pointer;
+}
+
+.active{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ModalGoto{
+    color: #6DD0F6; 
+    margin-top: 1rem; 
+    text-decoration: underline
+}
