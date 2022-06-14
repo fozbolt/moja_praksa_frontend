@@ -1,7 +1,7 @@
 
 <b>RAZVOJ WEB PLATFORME ZA UGOVARANJE STRUČNE PRAKSE - FRONTEND</b>
 
-Završni rad Autor: Stjepan Markovčić
+Završni rad Autor: Filip Ožbolt
 
 Mentor: doc. dr. sc. Darko Etinger
 
